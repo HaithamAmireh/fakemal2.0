@@ -20,3 +20,19 @@ def top_anime():
     res = requests.get(api)
     data = json.loads(res.text)
     return data
+
+
+@app.route("/topmanga", methods=["GET"])
+def top_manga():
+    api = "https://api.jikan.moe/v4/top/manga"
+    res = requests.get(api)
+    data = json.loads(res.text)
+    return data
+
+
+@app.route("/home", methods=["GET"])
+def recommendation():
+    api = "https://api.jikan.moe/v4/recommendations/anime"
+    res = requests.get(api)
+    data = json.loads(res.text)
+    return data

@@ -6,9 +6,9 @@ function App() {
     <>
       <Header />
       <AllCards />
-      </>
+    </>
 
-      )
+  )
 }
 
-      export default App
+export default App
