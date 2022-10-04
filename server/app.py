@@ -36,3 +36,7 @@ def recommendation():
     res = requests.get(api)
     data = json.loads(res.text)
     return data
+
+
+if __name__ == "__main__":
+    app.run()
