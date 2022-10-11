@@ -1,17 +1,30 @@
-import React from 'react'
+import React from "react";
 function Nav() {
-  const navItems = ["Home", "Seasonal", "Top Anime", "Top Manga", "Pictures", "Search"]
-  const navItemsValues = ["/home", "/seasonal", "/topanime", "/topmanga", "/pictures", "/search"]
+    const navItems = ["Home", "Seasonal", "Anime", "Manga", "Character", "Search"];
+    const navItemsValues = [
+        "/home",
+        "/seasonal",
+        "/topanime",
+        "/topmanga",
+        "/characters",
+        "/search",
+    ];
 
-  return (
-    // <div className='flex flex-grow justify-evenly max-w-2xl'>
-    // <div className='flex space-x-4 flex-wrap lg:justify-evenly lg:max-w-2xl md:flex-grow md:justify-evenly '>
-    <div className='grid grid-cols-1 text-xs lg:justify-evenly lg:max-w-2xl lg:text-lg md:flex md:flex-grow md:justify-evenly'>
-      {navItems.map((navItem, i) => {
-        return <a key={navItemsValues[i]} href={navItemsValues[i]} className="hover:animate-pulse text-base lg:text-lg hover:text-gray-700">{navItem}</a>
-      })}
-    </div>
-  )
+    return (
+        <div className="flex text-xs space-x-3 lg:space-x-2 lg:justify-evenly lg:max-w-2xl lg:text-lg md:flex md:flex-grow md:justify-evenly first:ml-2 overflow-x-scroll md:overflow-hidden lg:overflow-hidden">
+            {navItems.map((navItem, i) => {
+                return (
+                    <a
+                        key={navItemsValues[i]}
+                        href={navItemsValues[i]}
+                        className="hover:animate-pulse text-base lg:text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-rose-900"
+                    >
+                        {navItem}
+                    </a>
+                );
+            })}
+        </div>
+    );
 }
 
-export default Nav
+export default Nav;
