@@ -19,6 +19,8 @@ function AllCards() {
         apiUrl = requests["characters"];
     } else if (window.location.href.includes("search")) {
         apiUrl = requests["search"];
+    } else {
+        apiUrl = requests["/"]
     }
 
     useEffect(() => {
@@ -55,7 +57,7 @@ function AllCards() {
                             anime_name={x}
                             anime_poster={y}
                             score={anime.score || anime.favorites}
-                            anime_synopsis={anime.synopsis || anime.about}
+                            anime_synopsis={anime.synopsis || anime.about || anime.content}
                         />
                     );
                 })}

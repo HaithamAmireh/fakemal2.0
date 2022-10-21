@@ -17,7 +17,7 @@ function Nav() {
                     <a
                         key={navItemsValues[i]}
                         href={navItemsValues[i]}
-                        className="hover:animate-pulse text-base lg:text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-rose-900"
+                        className="hover:animate-pulse text-base lg:text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-200 hover:text-rose-900"
                     >
                         {navItem}
                     </a>
