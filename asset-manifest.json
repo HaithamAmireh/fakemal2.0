@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fakemakl.0/static/css/main.72014652.css",
-    "main.js": "/fakemakl.0/static/js/main.48edf471.js",
-    "static/js/787.d51aff49.chunk.js": "/fakemakl.0/static/js/787.d51aff49.chunk.js",
-    "index.html": "/fakemakl.0/index.html",
-    "main.72014652.css.map": "/fakemakl.0/static/css/main.72014652.css.map",
-    "main.48edf471.js.map": "/fakemakl.0/static/js/main.48edf471.js.map",
-    "787.d51aff49.chunk.js.map": "/fakemakl.0/static/js/787.d51aff49.chunk.js.map"
+    "main.css": "/fakemal2.0/static/css/main.72014652.css",
+    "main.js": "/fakemal2.0/static/js/main.303f73cb.js",
+    "static/js/787.d51aff49.chunk.js": "/fakemal2.0/static/js/787.d51aff49.chunk.js",
+    "index.html": "/fakemal2.0/index.html",
+    "main.72014652.css.map": "/fakemal2.0/static/css/main.72014652.css.map",
+    "main.303f73cb.js.map": "/fakemal2.0/static/js/main.303f73cb.js.map",
+    "787.d51aff49.chunk.js.map": "/fakemal2.0/static/js/787.d51aff49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72014652.css",
-    "static/js/main.48edf471.js"
+    "static/js/main.303f73cb.js"
   ]
 }
